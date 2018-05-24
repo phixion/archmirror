@@ -1,0 +1,127 @@
+@font-face{
+ font-family:Hack;
+ src:url(/static/hack-regular.woff2)
+ format('woff2'),url(/static/hack-regular.woff) 
+ format('woff');
+ font-weight:400;font-style:normal
+}
+
+@font-face{
+ font-family:Hack;
+ src:url(/static/hack-bold.woff2)
+ format('woff2'),url(/static/hack-bold.woff) 
+ format('woff');
+ font-weight:700;
+ font-style:normal
+}
+
+@font-face{
+ font-family:Hack;
+ src:url(/static/hack-italic.woff2)
+ format('woff2'),url(/static/hack-italic.woff) 
+ format('woff');
+ font-weight:400;font-style:italic
+}
+
+@font-face{
+ font-family:Hack;
+ src:url(/static/hack-bolditalic.woff2)
+ format('woff2'),url(/static/hack-bolditalic.woff) 
+ format('woff');
+ font-weight:700;font-style:italic
+}
+
+body {
+ background-color: #1c313a;
+ font-family:Hack, Menlo, Monaco, Consolas, 'Courier New', monospace;
+ color: #f44336;
+ font-size: 8pt;
+ padding-left: 75px;
+ padding-top: 35px;
+
+}
+
+h2 {
+ font-family:Hack, Menlo, Monaco, Consolas, 'Courier New', monospace;
+ font-size: 18pt;
+ color: #ffa000;
+ padding-left: 75px;
+ padding-top: 35px;
+ display: none;
+}
+
+table {
+ width: 100%;
+ padding-right: 75px;
+ padding-top: 25px;
+}
+
+th.m, th.t {
+ display:none;
+}
+
+th.n {
+ padding: 2px;
+ font-family:Hack, Menlo, Monaco, Consolas, 'Courier New', monospace;
+ font-size: 12pt;
+ text-align: left;
+}
+
+th.s {
+ padding: 2px;
+ font-family:Hack, Menlo, Monaco, Consolas, 'Courier New', monospace;
+ font-size: 12pt;
+ text-align: right;
+}
+
+
+tr:hover {
+ background: #2A4550;
+}
+
+td.n, td.s {
+ padding: 2px;
+ font-family:Hack, Menlo, Monaco, Consolas, 'Courier New', monospace;
+ font-size: 12pt;
+}
+
+td.n {
+ color: #f44336;
+}
+
+td.s {
+ color: #43a047;
+ text-align: right;
+}
+
+a {
+ text-decoration: none;
+ color: #ffa000;
+}
+
+a:hover {
+ color: #f44336;
+}
+
+div.foot {
+ font-family:Hack, Menlo, Monaco, Consolas, 'Courier New', monospace;
+ font-size: 12pt;
+ color: #ffa000;
+ padding-top: 15px;
+}
+
+td:nth-of-type(2) {
+ display: none;
+}
+
+th:nth-of-type(2) {
+ display: none;
+}
+
+td:nth-of-type(4) {
+ display: none;
+}
+
+th:nth-of-type(4) {
+ display: none;
+}

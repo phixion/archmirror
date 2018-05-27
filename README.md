@@ -1,2 +1,2 @@
 # archmirror
-scripts for mirror.phx.ms/arch/
+helpers for mirrors.phx.ms
